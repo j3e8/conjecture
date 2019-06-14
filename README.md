@@ -17,10 +17,7 @@ Run `npm run start` to start the server.
 
 # Contributing
 ## Linting
-We use eslint. To run it call `npm run lint`
-
-## Testing
-We use mocha and chai for tests. Run `npm run test` to launch the tests. Tests should all be placed in the `/test` directory.
+This uses eslint. To run it call `npm run lint`
 
 ## Database
 For consistency's sake the assumption is that Postgres will be used whenever a database is needed
