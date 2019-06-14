@@ -1,0 +1,27 @@
+{
+  "defaultEnv": {"ENV": "NODE_ENV"},
+  "development": {
+    "user": {"ENV": "PGUSER"},
+    "password": {"ENV": "PGPASS"},
+    "database": {"ENV": "PGDATABASE"},
+    "host": {"ENV": "PGHOST"},
+    "driver": "pg",
+    "timezone": "UTC+0"
+  },
+  "test": {
+    "user": {"ENV": "PGUSER"},
+    "password": {"ENV": "PGPASS"},
+    "database": {"ENV": "PGDATABASE_TEST"},
+    "host": {"ENV": "PGHOST"},
+    "driver": "pg",
+    "timezone": "UTC+0"
+  },
+  "prod": {
+    "user": {"ENV": "PGUSER"},
+    "password": {"ENV": "PGPASS"},
+    "database": {"ENV": "PGDATABASE"},
+    "host": {"ENV": "PGHOST"},
+    "driver": "pg",
+    "timezone": "UTC+0"
+  }
+}

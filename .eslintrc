@@ -1,0 +1,35 @@
+{
+  "extends": "airbnb-base/legacy",
+  "rules": {
+    "array-bracket-spacing": [2, "never"],
+    "arrow-body-style": 0,
+    "arrow-spacing": 2,
+    "class-methods-use-this": [0],
+    "comma-dangle": ["error", {
+      "arrays": "ignore",
+      "objects": "always-multiline",
+      "imports": "always-multiline",
+      "exports": "always-multiline",
+      "functions": "ignore"
+    }],
+    "max-len": [2, 160, 2, {
+      "ignoreUrls": true,
+      "ignoreComments": false
+    }],
+    "newline-per-chained-call": [0],
+    "no-console": 0,
+    "no-else-return": 0,
+    "no-param-reassign": [2, {"props": false}],
+    "no-prototype-builtins": 0,
+    "no-return-assign": [0],
+    "no-underscore-dangle": [1],
+    "no-use-before-define": ["error", { "functions": false }],
+    "object-shorthand": [1],
+    "space-before-function-paren": [2, "always"],
+    "global-require": 0,
+  },
+  "env": { "es6": true, "jest": true },
+  "parserOptions": {
+    "ecmaVersion": 2018,
+  }
+}

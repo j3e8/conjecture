@@ -1,0 +1,15 @@
+module.exports = [
+  /([\u0904-\u139f])/gm,
+  /([\u1700-\u18af])/gm,
+  /([\u1900-\u1aaf])/gm,
+  /([\u1b00-\u1cff])/gm,
+  /([\u2c00-\u2ddf])/gm,
+  /([\u2e80-\u2fef])/gm,
+  /([\u3040-\u3247])/gm,
+  /([\u3260-\u32b0])/gm,
+  /([\u32d0-\u3357])/gm,
+  /([\u3400-\ua4cf])/gm,
+  /([\ua500-\ua62f])/gm,
+  /([\ua800-\uab2f])/gm,
+  /([\uab70-\ud7ff])/gm,
+];
